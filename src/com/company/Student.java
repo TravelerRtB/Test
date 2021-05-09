@@ -8,10 +8,10 @@ package com.company;
 public class Student
 {
     // Write 4 instance variables
-    private final String fName;
-    private final String lName;
-    private final String eMail;
-    private final int grade;
+    private String fName;
+    private String lName;
+    private String eMail;
+    private int grade;
 
     // Write 3 constructors to initialize the instance variables
     //  1. no parameters using default values
@@ -54,10 +54,11 @@ public class Student
         Student s1 = new Student();
         Student s2 = new Student(2);
         Student s3 = new Student("John", "Wick", "john.wick@gmail.com", 3);
-
+        Student s1298 = new Student("Nejad", "Muhammad", "nejad.muhammad@gmail.com", 7);
         // call their print() methods
         s1.print();
         s2.print();
         s3.print();
+        s1298.print();
     }
 }
