@@ -46,6 +46,10 @@ public class Student
         System.out.println("Grade is:       " + grade);
         System.out.println();
     }
+    // toString() method
+    public String toString() {
+        return fName + " " + lName + " from grade " + grade + " his email is: " + eMail;
+    }
 
     // main method
     public static void main(String[] args)
@@ -60,5 +64,6 @@ public class Student
         s2.print();
         s3.print();
         s1298.print();
+        System.out.println(s3);
     }
 }
