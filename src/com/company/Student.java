@@ -40,15 +40,14 @@ public class Student
 
     // Write a print method that prints all the instance variables
     public void print() {
-        System.out.println("First name is:  " + fName);
+        System.out.println("\n" + "First name is:  " + fName);
         System.out.println("Last name is:   " + lName);
         System.out.println("Email is:       " + eMail);
         System.out.println("Grade is:       " + grade);
-        System.out.println();
     }
     // toString() method
     public String toString() {
-        return fName + " " + lName + " from grade " + grade + " his email is: " + eMail;
+        return "\n" + fName + " " + lName + " from grade " + grade + " his email is: " + eMail;
     }
 
     // main method
