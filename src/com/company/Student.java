@@ -5,8 +5,7 @@ package com.company;
  * 3 constructors, a print method,
  * and a main method to test them.
  */
-public class Student
-{
+public class Student {
     // Write 4 instance variables
     private String fName;
     private String lName;
